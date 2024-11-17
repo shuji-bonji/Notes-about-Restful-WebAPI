@@ -1,0 +1,35 @@
+site_name: RESTful Web API
+site_description: REST Web API 設計
+site_author: Shuji Narumi
+# site_url: 
+
+# Copyright
+copyright: Copyright (c) 2021 bonji@mikuro.net
+
+# Documentation and theme
+docs_dir: docs
+theme:
+  name: material
+  logo: images/logo_w.svg
+  favicon : images/logo_w.svg
+  features:
+    - navigation.instant
+  language: ja
+
+markdown_extensions:
+  - admonition # 注意書きやノート:  !!! note ""
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - toc:
+      toc_depth: 2
+      permalink: true
+
+
+
+# 
+nav:
+  - Webサービスの基本: web_service_basics.md
+  - REST制約: rest_constraints.md
+  - REST WebAPI サービス設計（基本）: rest_webapi_service_design_basic.md
+  - REST WebAPI サービス設計（応用）: rest_webapi_service_design_application.md
+  - OpenAPI & Swwager 実践入門 : open_api_and_swwager_practical_introduction.md
